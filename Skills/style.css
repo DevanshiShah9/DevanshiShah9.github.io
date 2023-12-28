@@ -1,0 +1,143 @@
+.skills-icon,
+.skills {
+    display: inline-block;
+    vertical-align: middle; 
+}
+.skills-icon {
+    margin-right: 0.5em;
+    color: #2D728F;
+    border: 5px solid #2D728F; /* Border color */
+    border-radius: 50%; /* Creates a circle */
+    padding: 0.1em; 
+    font-size: 3em;
+}
+
+.skills {
+    font-weight: bold;
+    font-size: 4em;
+}
+
+
+.icon-and-skills-container {
+    text-align: center; /* Align the entire container */
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em; /* Adjust top margin */
+}
+
+.skills-button,
+.tools-button {
+    padding: 1em 2em; /* Adjust padding to increase button size */
+    font-size: 1.5em; /* Increase font size */
+    background-color: #2D728F; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 15px; /* Button border radius */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin: 0 1em; /* Adjust spacing between buttons */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    font-weight: 500;
+    position: relative; 
+    border: 5px solid transparent;
+}
+
+.skills-button:hover,
+.tools-button:hover {
+    border: 5px solid orange; /* Orange border for active and hovered states */
+}
+
+.skills-button.active,
+.tools-button.active {
+    border: 5px solid orange; /* Apply orange border to the active button */
+}
+
+
+.rc-progress-line {
+    width: 65vw; /* Occupying 75% of the viewport width */
+    max-width: 100%; /* Ensuring it doesn't overflow */
+    height: 10px; /* Adjust the height as needed for thickness */
+}
+
+.skills-content {
+    display: block;
+    gap: 20px; /* Increase the space between progress bars */
+}
+
+.text-base {
+    font-size: 1.3em; /* Adjust the font size for the skill name */
+}
+
+.tools-content {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em; /* Adjust as needed */
+}
+
+#skills-dropdown {
+    padding: 8px;
+    font-size: 1.3em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected-content{
+    margin-top: 2em;
+}
+
+
+@media screen and (max-width: 768px) {
+    .skills-icon {
+        font-size: 2em;
+    }
+
+    .skills {
+        font-size: 3em;
+    }
+    
+    .text-base {
+        font-size: 1em; /* Adjust the font size for the skill name */
+    }
+    #skills-dropdown {
+        font-size: 1em;
+    }
+    /* Adjust the margin for smaller screens */
+    .buttons-container {
+        margin-top: 0.5em; /* Reduce top margin */
+        display: flex; /* Maintain buttons in a row */
+        flex-wrap: wrap; /* Allow buttons to wrap to the next line if needed */
+        justify-content: center; /* Center the buttons horizontally */
+    }
+
+    .skills-content,
+    .tools-content {
+        margin: 2em 0em; /* Adjust the top and bottom margin, maintain horizontal margin */
+    }
+
+    .rc-progress-line {
+        width: 100%; /* Adjust progress bar width to fit container */
+        margin: 0 auto; /* Center progress bar */
+    }
+
+    .flex.justify-between.py-1 {
+        display: flex;
+        justify-content: space-between; /* Align text and percentage to start and end */
+        width: 105%; /* Ensure full width */
+        align-items: center; /* Align items vertically */
+    }
+
+    .flex.justify-between.py-1 span {
+        flex: 1; /* Let both spans take available space */
+        text-align: left; /* Align text to the left */
+    }
+
+    .flex.justify-between.py-1 span:last-child {
+        text-align: right; /* Align percentage to the right */
+    }
+
+
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link rel="stylesheet" href="../Projects/style.css">
+</head>
+
+<body class="font-sans bg-gray-100">
+
+    <div class="icon-and-text-container">
+        <i class='bx bx-list-ol text-2xl projects-icon'></i>
+        <h1 class="projects">Projects</h1>
+        <div class="project-boxes">
+            <div class="overlay" id="overlay"></div>
+            <div class="row">
+                <div class="box" data-index="0">
+                    <div class="image-section">
+                        <img src="../credit_card_and_bitcoin.jpg">
+                    </div>
+                    <div class="text-section">
+                        <p>Credit Card and Bitcoin Fraud Management System</p>
+                    </div>
+                </div>
+                
+                <div class="box" data-index="1">
+                    <div class="image-section">
+                        <img src="../reverse_dictionary.jpg">
+                    </div>
+                    <div class="text-section">
+                        <p>Reverse Dictionary - Natural Language Processing</p>
+                    </div>
+                </div>
+
+                <div class="box" data-index="2">
+                    <div class="image-section">
+                        <img src="../game.jpg">
+                    </div>
+                    <div class="text-section">
+                        <p>Endless Runner Game Development</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box" data-index="3">
+                    <div class="image-section">
+                        <img src="../airline_delay.jpg">
+                    </div>
+                    <div class="text-section">
+                        <p>Airline Delay Prediction</p>
+                    </div>
+                </div>
+                <div class="box" data-index="4">
+                    <div class="image-section">
+                        <img src="../face_mask.jpg">
+                    </div>
+                    <div class="text-section">
+                        <p>Face Mask Detection for COVID 19</p>
+                    </div>
+                </div>
+                <div class="box" data-index="5">
+                    <div class="image-section">
+                        <img src="../music.jpg">
+                    </div>
+                    <div class="text-section">
+                        <p>Music Recommendation System using Spotify Web API</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box" data-index="6">
+                    <div class="image-section">
+                        <img src="../aml.jpg">
+                    </div>
+                    <div class="text-section">
+                        <p>Anti Money Laundering</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup template -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <div class="popup-details">
+                <h2 class="popup-heading"></h2>
+                <div class="categories"></div>
+                <p><span class="popup-tech-stack"></span></p>
+                <p><span class="popup-models"></span></p>
+                <p><span class="popup-website-url"></span></p>
+                <p><span class="popup-description"></span></p>
+                <p><strong style="font-size:1em;">Features:</strong></p>
+                <ul class="popup-features"></ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../Projects/script.js"></script>
+
+</body>
+
+</html>

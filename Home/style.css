@@ -1,0 +1,97 @@
+.icon-links {
+    display: flex;
+    justify-content: left;
+    margin-top: 1.5%;
+}
+
+.icon-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E0E7E9;
+    margin: 0 5px; 
+    text-decoration: none; 
+}
+
+.icon-links a i {
+    color: #000000;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #E0E7E9;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.icon-and-home-container {
+    display: flex;
+    justify-content: space-around; /* or space-between */
+    align-items: center;
+}
+
+.text-content {
+    flex: 2;
+}
+
+.lottie-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Adjust alignment if needed */
+}
+
+#lottieAnimation {
+    width: 50em;
+    max-width: 80%;
+    /* Other styles as needed */
+}
+
+.resume{
+    text-align: left; 
+    margin-top: 0.5em; 
+    font-weight: 500;
+}
+
+
+/* Add this CSS at the bottom or in a separate CSS file */
+
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+  
+    .icon-and-home-container {
+      flex-direction: column; /* Display in a column for smaller screens */
+      align-items: center;
+      text-align: center; /* Center-align content */
+    }
+  
+    .text-content {
+      order: 2; /* Reorder text below Lottie animation */
+      margin-top: 0em;
+    }
+  
+    .lottie-container {
+      order: 1; /* Reorder Lottie animation above text */
+      margin-bottom: 0em; /* Adjust spacing */
+    }
+  
+    #lottieAnimation {
+      width: 100%; /* Adjust width for smaller screens */
+      max-width: none; /* Remove max-width for smaller screens */
+    }
+
+    .icon-links {
+        display: flex;
+        justify-content: center;
+    }
+    .resume{
+        text-align: center;
+    }
+  }
+  

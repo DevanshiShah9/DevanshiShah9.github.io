@@ -1,0 +1,109 @@
+html {
+    font-size: 16px; /* Default font size for most screens */
+  }
+
+  .container{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-y: auto;
+}
+
+.sidebar {
+    width: 80px;    
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #B8DBD9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: background-color 1s;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc(80px + 2em) ;
+    margin-right: 2em;    
+}
+
+.menu-icon {
+    display: none; 
+    font-size: 2em;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    color: #2D728F;
+}
+
+
+.sidebar a {
+    color: #2D728F;
+    text-decoration: none;
+    padding: 15% 0;
+    /* Adjusted padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: background-color 0.3s;
+    outline: none;
+}
+
+.sidebar .icon {
+    font-size: 1.8em;
+}
+
+.sidebar .text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    padding: 0.2em;
+    background: #B8DBD9;
+    color: #2D728F;
+    z-index: 999;
+    font-size: 0.9em;
+}
+
+.sidebar a:hover .text {
+    display: block;
+}
+
+.sidebar a.active .icon {
+    color: #FF6347;
+    /* Change to your desired color */
+}
+
+.sidebar a.active .text {
+    color: #FF6347; /* Change to match the icon color or set as needed */
+}
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Show the menu icon for smaller screens */
+    .menu-icon {
+        display: block;
+    }
+
+    html{
+        font-size: 12px;
+    }
+    .content{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+}
+

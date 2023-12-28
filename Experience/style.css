@@ -1,0 +1,105 @@
+.exp-icon,
+.exp {
+    display: inline-block;
+    vertical-align: middle; 
+}
+.exp-icon {
+    margin-right: 0.5em;
+    color: #2D728F;
+    border: 5px solid #2D728F; /* Border color */
+    border-radius: 50%; /* Creates a circle */
+    padding: 0.1em; 
+    font-size: 3em;
+}
+
+.exp {
+    font-weight: bold;
+    font-size: 4em;
+}
+
+
+.icon-and-exp-container {
+    text-align: center; /* Align the entire container */
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-container > div {
+    flex: 1;
+}
+
+
+.icon-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 50%;
+    max-width: 1.5em; /* Adjust circle size */
+    max-height: 1.5em; /* Adjust circle size */
+    font-size: 1.5em;
+    padding: 0.1em; /* Add padding inside the circle */
+}
+
+
+.icon-content .bx {
+    font-size: 1.5em; /* Set the desired size for the icon */
+}
+
+/* Style for the boxes */
+.box-with-shadow {
+    background-color: white;
+    border-radius: 8px;
+    padding: 0.5em;
+    margin-bottom: 1em; /* Adjust spacing between boxes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-left: 1em;
+    margin-top: 1.5em;
+    width: 80%;
+
+}
+
+/* Style for the content inside the box */
+.box-content {
+    font-size: 0.9em;
+}
+
+.box-content ul {
+    margin-left: 2em; /* Adjust indentation as needed */
+    list-style-type: disc;
+    text-align: left; 
+}
+
+.categories {
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+.category {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 0.5em;
+    border: 3px solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .exp-icon {
+        font-size: 2em;
+    }
+
+    .exp {
+        font-size: 3em;
+    }
+
+    .category{
+        margin-bottom: 0.2em;
+        margin-right: 0em;
+    }
+
+}

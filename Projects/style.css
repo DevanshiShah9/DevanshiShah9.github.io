@@ -1,0 +1,230 @@
+.icon-and-text-container {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.project-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-icon,
+.projects {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.projects-icon {
+    margin-right: 0.5em;
+    color: #2D728F;
+    border: 5px solid #2D728F;
+    /* Border color */
+    border-radius: 50%;
+    /* Creates a circle */
+    padding: 0.1em;
+    font-size: 3em;
+}
+
+.projects {
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5em;
+    border: 5px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.box.active {
+    border-color: #FFA500; /* Orange border color for the active box */
+}
+
+
+/* Adjust the border color when a box is hovered */
+.box:hover {
+    border-color: #FFA500; /* Orange border color on hover */
+}
+
+.image-section {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.text-section {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.box p {
+    text-align: center;
+    margin: 0;
+    /* Additional styles for text inside the box */
+}
+
+/* Popup styles */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 0px 10px;
+    width: 40em;
+    height: 30em;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    z-index: 998; 
+}
+
+
+.popup-content {
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0em;
+    right: 0.5em;
+    cursor: pointer;
+    font-size: 2em;
+    color: #aaa;
+    z-index: 999; /* Ensure it's above other content */
+}
+
+.popup-details>* {
+    margin-bottom: 0.5em;
+    /* Adjust the margin between elements */
+}
+
+.popup-heading {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    max-width: calc(100% - 1.5em);
+    word-wrap: break-word;
+}
+
+
+.popup-tech-stack,
+.popup-website-url,
+.popup-description,
+.popup-models {
+    /* Adjust margin as needed */
+    font-size: 1em;
+}
+
+
+.popup-features-heading {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.popup-features {
+    list-style-type: disc;
+    /* Sets the list style to a bullet */
+    padding-left: 2em;
+    /* Adds space from the left for the bullets */
+}
+
+.popup-features li {
+    margin-bottom: 0.2em;
+}
+
+.categories {
+    margin-bottom: 0.5em;
+}
+
+.category {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 0.5em;
+    border: 3px solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.website-links {
+    display: inline-block; /* or display: flex; */
+    /* Add any other necessary styles */
+}
+
+/* Add styles for the overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent grey background */
+    z-index: 997; /* Ensure it's above other elements */
+}
+
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        margin-bottom: 0em;
+    }
+
+    .box {
+        margin-bottom: 1em;
+        margin-right: 0em;
+        /* Add margin between boxes */
+    }
+
+    /* Additional styles for categories in a column */
+    .category {
+        margin-bottom: 0.5em;
+    }
+
+
+    .projects-icon {
+        font-size: 2em;
+    }
+
+    .projects {
+        font-size: 3em;
+    }
+
+}
