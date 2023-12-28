@@ -59,19 +59,20 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
     margin-left: 1em;
     margin-top: 1.5em;
-    width: 80%;
+    width: 100%;
 
 }
 
 /* Style for the content inside the box */
 .box-content {
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .box-content ul {
     margin-left: 2em; /* Adjust indentation as needed */
     list-style-type: disc;
     text-align: left; 
+    margin-top: 1em;
 }
 
 .categories {
