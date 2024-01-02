@@ -27,12 +27,12 @@
     border-radius: 50%;
     /* Creates a circle */
     padding: 0.1em;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .projects {
     font-weight: bold;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .row {
@@ -40,6 +40,7 @@
     justify-content: space-around;
     margin-bottom: 1em;
 }
+
 
 .box {
     position: relative;
@@ -197,6 +198,16 @@
     z-index: 997; /* Ensure it's above other elements */
 }
 
+@media (min-width: 769px) and (max-width: 1200px) {
+    .box {
+        width: 25vw;
+        height: 20vw;
+    }
+    .text-section {
+        font-size: 0.8em;
+    }
+}
+
 
 @media (max-width: 768px) {
     .row {
@@ -210,21 +221,30 @@
     .box {
         margin-bottom: 1em;
         margin-right: 0em;
-        /* Add margin between boxes */
     }
 
-    /* Additional styles for categories in a column */
     .category {
         margin-bottom: 0.5em;
     }
+}
 
-
-    .projects-icon {
-        font-size: 2em;
+@media (max-width: 300px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        margin-bottom: 0em;
     }
 
-    .projects {
-        font-size: 3em;
+    .box {
+        width: 200px;
+        height: 150px;
+        margin-bottom: 1em;
+        margin-right: 0em;
     }
 
+    .category {
+        margin-bottom: 0.5em;
+    }
 }

@@ -26,7 +26,7 @@ function openPopup(index) {
             techStack: 'Python, Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn, Jupyter Notebook',
             models: 'Support Vector Machines, K- Nearest Neighbors, Artificial Neural Networks, Isolation Forest, Local Outlier Factor, K-Means Clustering',
             websiteUrl: [{ Name: 'Github-Link', URL: 'https://github.com/DevanshiShah9/Credit-Card-and-BitCoin-Fraud-Management-System/' }],
-            description: 'This was my final year undergraduate project where my peers and I collaborated to create a Fraud Management System. The aim was to tackle the existing credit card fraud concern as well as to resolve the emerging BitCoin frauds issue.',
+            description: 'This was my final year undergraduate project where my peers and I collaborated to create a Fraud Management System. The aim was to tackle the existing Credit Card fraud concern as well as to resolve the emerging BitCoin frauds issue.',
             features: [
                 'Usage of data manipulation - random resampling, feature selection, data visualization, and analysis',
                 'Utilization of supervised and unsupervised ML algorithms',
@@ -45,7 +45,7 @@ function openPopup(index) {
             description: 'My peers and I collaborated to give our perspective on the tip-of-tongue problem as our final project for USC CSCI 544: Applied NLP course. We developed a reverse dictionary where a vague definition input yields a list of matching words as output.',
             features: [
                 'Utilized transformer-based Large Language Models (LLMs) to retrieve a word corresponding to an imprecise description',
-                'Worked with data manipulatio techniques such as synonym-antonym substituition, typographical errors introduction',
+                'Worked with data manipulation techniques such as synonym-antonym substituition and typographical errors introduction',
                 'Enhanced existing Top-K accuracies by up to 25%'
             ],
             categories: [
@@ -60,7 +60,7 @@ function openPopup(index) {
             features: [
                 'Developed an innovative game within 14 weeks',
                 'Integrated the game with unique features, obstacles, and risk and reward strategies',
-                'As a product manager tracked essential data analytics to improvise the gaming experience'
+                'As a Product Manager identified and tracked essential data analytics leading to improvised gaming experience'
             ],
             categories: [
                 { name: 'Software Development - Game Development', color: '#60AFFF' },
@@ -76,7 +76,7 @@ function openPopup(index) {
             features: [
                 'Usage of Big Data Analytics to assess airline delays for 4 US States',
                 'Utilization of Recall, Precision, AUC-ROC scores as state-wise metrics',
-                'Reduced 50% computation time for 1M rows using PySpark and Predictive Modelling'
+                'Reduced 50% computation time for 1M rows using PySpark and Predictive Modeling'
             ],
 
             categories: [
@@ -118,11 +118,11 @@ function openPopup(index) {
         {
             heading: 'Anti Money Laundering (AML) (In Progress)',
             techStack: 'Python, Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn, Jupyter Notebook, Tableau Dashboards, Node.js, React.js, GraphQL',
-            models: 'Randome Forest, Logistic Regression',
+            models: 'Random Forest, Logistic Regression, XGBoost, Decision Trees',
             websiteUrl: [{ Name: 'Github-Link', URL: 'https://github.com/DevanshiShah9/AML-Project-In-Progress/' }],
             description: 'I undertook this project to dive deeper into the Financial sector and implement ML models for Fraud Detection and Account Risk Assessment.',
             features: [
-                'Leveraged supervised ML models to detect patterns associated with fraudulent transactions, with a particular focus on identifying SAR cycles',
+                'Leveraged supervised ML models building classifier chain to detect patterns associated with fraudulent transactions, with a particular focus on identifying SAR cycles',
                 'Employ unsupervised ML to predict the likelihood of an account being fraudulent based on these detected transactions',
                 'Create a dashboard using Tableau to visualize the data and its insights',
                 'Create an interactive GUI to interact with the data, dashboards and models'

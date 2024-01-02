@@ -9,12 +9,12 @@
     border: 5px solid #2D728F; /* Border color */
     border-radius: 50%; /* Creates a circle */
     padding: 0.1em; 
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .exp {
     font-weight: bold;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 
@@ -90,14 +90,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .exp-icon {
-        font-size: 2em;
-    }
-
-    .exp {
-        font-size: 3em;
-    }
-
     .category{
         margin-bottom: 0.2em;
         margin-right: 0em;

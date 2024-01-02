@@ -31,12 +31,15 @@ html {
     align-items: center;
     justify-content: center;
     margin-left: calc(80px + 2em) ;
-    margin-right: 2em;    
+    margin-right: 2em;   
+    margin-top: 2em;
+    transition: max-width 0.3s ease, opacity 10s ease;
 }
+
 
 .menu-icon {
     display: none; 
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
     top: 1%;
     right: 1%;

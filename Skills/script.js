@@ -8,46 +8,48 @@ const skillsData = [
     { name: 'Data Engineering', percentage: 90, color: '#60993E' },
     { name: 'Computer Vision', percentage: 85, color: '#60993E' },
     { name: 'Natural Language Processing', percentage: 85, color: '#60993E' },
-    { name: 'Product Management', percentage: 80, color: '#60993E' }
+    { name: 'Product Management', percentage: 85, color: '#60993E' }
 ];
 
 
 const toolsData = [
     { name: 'Python', category: 'Programming Languages', percentage: 95, color: '#60993E' },
     { name: 'JavaScript', category: 'Programming Languages', percentage: 95, color: '#60993E' },
-    { name: 'Java', category: 'Programming Languages', percentage: 85, color: '#60993E' },
-    { name: 'C++', category: 'Programming Languages', percentage: 80, color: '#60993E' },
-    { name: 'HTML', category: 'Programming Languages', percentage: 85, color: '#60993E' },
     { name: 'SQL', category: 'Programming Languages', percentage: 95, color: '#60993E' },
-    { name: 'GraphQL', category: 'Programming Languages', percentage: 90, color: '#60993E' },
+    { name: 'Java', category: 'Programming Languages', percentage: 85, color: '#60993E' },
+    { name: 'HTML', category: 'Programming Languages', percentage: 85, color: '#60993E' },
+    { name: 'CSS', category: 'Programming Languages', percentage: 85, color: '#60993E' },
+    { name: 'C++', category: 'Programming Languages', percentage: 80, color: '#60993E' },
+    
 
-    { name: 'NumPy, Pandas, Seaborn, Matplotlib', category: 'Data Science/ Machine Learning Libraries', percentage: 95, color: '#60993E' },
+    { name: 'NumPy, Pandas, Seaborn, Matplotlib, Plotly', category: 'Data Science/ Machine Learning Libraries', percentage: 95, color: '#60993E' },
     { name: 'Scikit-Learn', category: 'Data Science/ Machine Learning Libraries', percentage: 95, color: '#60993E' },
     { name: 'Tensorflow', category: 'Data Science/ Machine Learning Libraries', percentage: 95, color: '#60993E' },
-    { name: 'Keras', category: 'Data Science/ Machine Learning Libraries', percentage: 85, color: '#60993E' },
     { name: 'PyTorch', category: 'Data Science/ Machine Learning Libraries', percentage: 95, color: '#60993E' },
+    { name: 'Keras', category: 'Data Science/ Machine Learning Libraries', percentage: 85, color: '#60993E' },
     { name: 'NLTK', category: 'Data Science/ Machine Learning Libraries', percentage: 85, color: '#60993E' },
     { name: 'Hugging Face', category: 'Data Science/ Machine Learning Libraries', percentage: 80, color: '#60993E' },
     { name: 'Beautiful Soup', category: 'Data Science/ Machine Learning Libraries', percentage: 80, color: '#60993E' },
     { name: 'OpenCV', category: 'Data Science/ Machine Learning Libraries', percentage: 80, color: '#60993E' },
     { name: 'PySpark', category: 'Data Science/ Machine Learning Libraries', percentage: 80, color: '#60993E' },
 
-    { name: 'PostgreSQL', category: 'Database Tools', percentage: 95, color: '#60993E' },
-    { name: 'MySQL', category: 'Database Tools', percentage: 90, color: '#60993E' },
     { name: 'pgAdmin', category: 'Database Tools', percentage: 95, color: '#60993E' },
-
+    { name: 'PostgreSQL', category: 'Database Tools', percentage: 95, color: '#60993E' },
+    { name: 'GraphQL', category: 'Database Tools', percentage: 90, color: '#60993E' },
+    { name: 'MySQL', category: 'Database Tools', percentage: 90, color: '#60993E' },
+    
     { name: 'Jupyter Notebooks', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
     { name: 'GitHub', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
-    { name: 'Amazon Web Services (AWS)', category: 'Platforms/Web Frameworks', percentage: 90, color: '#60993E' },
     { name: 'Django/ Django REST', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
     { name: 'Node.js', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
-    { name: 'Looker Studio', category: 'Platforms/Web Frameworks', percentage: 90, color: '#60993E' },
-    { name: 'BigQuery', category: 'Platforms/Web Frameworks', percentage: 90, color: '#60993E' },
-    { name: 'Tableau', category: 'Platforms/Web Frameworks', percentage: 85, color: '#60993E' },
-    { name: 'Jira', category: 'Platforms/Web Frameworks', percentage: 90, color: '#60993E' },
-    { name: 'Unity', category: 'Platforms/Web Frameworks', percentage: 85, color: '#60993E' },
+    { name: 'Looker Studio', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
+    { name: 'BigQuery', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
     { name: 'Microsoft 365', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
     { name: 'Google Cloud Platform (GCP)', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
+    { name: 'Amazon Web Services (AWS)', category: 'Platforms/Web Frameworks', percentage: 90, color: '#60993E' },  
+    { name: 'Jira', category: 'Platforms/Web Frameworks', percentage: 90, color: '#60993E' },
+    { name: 'Tableau', category: 'Platforms/Web Frameworks', percentage: 85, color: '#60993E' },
+    { name: 'Unity', category: 'Platforms/Web Frameworks', percentage: 85, color: '#60993E' }, 
 ];
 
 

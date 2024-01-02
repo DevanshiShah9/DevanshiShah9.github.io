@@ -9,12 +9,12 @@
     border: 5px solid #2D728F; /* Border color */
     border-radius: 50%; /* Creates a circle */
     padding: 0.1em; 
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .skills {
     font-weight: bold;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 
@@ -91,14 +91,6 @@
 
 
 @media screen and (max-width: 768px) {
-    .skills-icon {
-        font-size: 2em;
-    }
-
-    .skills {
-        font-size: 3em;
-    }
-    
     .text-base {
         font-size: 1em; /* Adjust the font size for the skill name */
     }
