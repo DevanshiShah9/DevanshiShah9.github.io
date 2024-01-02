@@ -29,10 +29,10 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-left: calc(80px + 2em) ;
-    margin-right: 2em;   
-    margin-top: 1em;
+    margin-right: 2em;  
+    padding-top: 5em; 
 }
 
 
