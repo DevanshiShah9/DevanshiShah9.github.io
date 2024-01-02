@@ -32,8 +32,7 @@ html {
     justify-content: center;
     margin-left: calc(80px + 2em) ;
     margin-right: 2em;   
-    margin-top: 2em;
-    transition: max-width 0.3s ease, opacity 10s ease;
+    margin-top: 1em;
 }
 
 
