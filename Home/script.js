@@ -4,6 +4,6 @@ function initializeLottieAnimation() {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '../coding.json'
+        path: '../Media/coding.json'
     });
 }
