@@ -71,8 +71,13 @@
 .box-content ul {
     margin-left: 2em; /* Adjust indentation as needed */
     list-style-type: disc;
-    text-align: left; 
+    text-align: justify; 
     margin-top: 1em;
+}
+
+.box-content ul li {
+    width: 85%; /* Each list item takes up 100% width */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
 }
 
 .categories {
