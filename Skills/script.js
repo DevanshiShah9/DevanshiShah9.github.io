@@ -16,6 +16,7 @@ const toolsData = [
     { name: 'Python', category: 'Programming Languages', percentage: 95, color: '#60993E' },
     { name: 'JavaScript', category: 'Programming Languages', percentage: 95, color: '#60993E' },
     { name: 'SQL', category: 'Programming Languages', percentage: 95, color: '#60993E' },
+    { name: 'R', category: 'Programming Languages', percentage: 85, color: '#60993E' },
     { name: 'Java', category: 'Programming Languages', percentage: 85, color: '#60993E' },
     { name: 'HTML', category: 'Programming Languages', percentage: 85, color: '#60993E' },
     { name: 'CSS', category: 'Programming Languages', percentage: 85, color: '#60993E' },
