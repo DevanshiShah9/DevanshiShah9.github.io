@@ -6,9 +6,9 @@ const skillsData = [
     { name: 'Software Development', percentage: 95, color: '#60993E' },
     { name: 'Data Analytics', percentage: 95, color: '#60993E' },
     { name: 'Data Engineering', percentage: 90, color: '#60993E' },
+    { name: 'Product Management', percentage: 90, color: '#60993E' },
     { name: 'Computer Vision', percentage: 85, color: '#60993E' },
-    { name: 'Natural Language Processing', percentage: 85, color: '#60993E' },
-    { name: 'Product Management', percentage: 85, color: '#60993E' }
+    { name: 'Natural Language Processing', percentage: 85, color: '#60993E' }
 ];
 
 
@@ -38,18 +38,19 @@ const toolsData = [
     { name: 'GraphQL', category: 'Database Tools', percentage: 90, color: '#60993E' },
     { name: 'MySQL', category: 'Database Tools', percentage: 90, color: '#60993E' },
     
-    { name: 'Jupyter Notebooks', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
-    { name: 'GitHub', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
-    { name: 'Django/ Django REST', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
-    { name: 'Node.js', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
-    { name: 'Looker Studio', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
-    { name: 'BigQuery', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
-    { name: 'Microsoft 365', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
-    { name: 'Google Cloud Platform (GCP)', category: 'Platforms/Web Frameworks', percentage: 95, color: '#60993E' },
-    { name: 'Amazon Web Services (AWS)', category: 'Platforms/Web Frameworks', percentage: 90, color: '#60993E' },  
-    { name: 'Jira', category: 'Platforms/Web Frameworks', percentage: 90, color: '#60993E' },
-    { name: 'Tableau', category: 'Platforms/Web Frameworks', percentage: 85, color: '#60993E' },
-    { name: 'Unity', category: 'Platforms/Web Frameworks', percentage: 85, color: '#60993E' }, 
+    { name: 'Jupyter Notebooks', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'GitHub', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'Django/ Django REST', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'Node.js', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'React', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'Looker Studio', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'BigQuery', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'Microsoft 365', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'Google Cloud Platform (GCP)', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'Tableau', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'Amazon Web Services (AWS)', category: 'Development Tools & Platforms', percentage: 90, color: '#60993E' },  
+    { name: 'Jira', category: 'Development Tools & Platforms', percentage: 85, color: '#60993E' },
+    { name: 'Unity', category: 'Development Tools & Platforms', percentage: 85, color: '#60993E' }, 
 ];
 
 
@@ -107,6 +108,8 @@ toolsButton.addEventListener('click', () => {
 
     const programmingSkills = toolsData.filter(skill => skill.category === "Programming Languages");
     displaySkills(programmingSkills, '.selected-content');
+
+    dropdown.value = "Programming Languages";
 });
 
 // Initially display skills content

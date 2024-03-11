@@ -116,22 +116,38 @@ function openPopup(index) {
             ]
         },
         {
-            heading: 'Anti Money Laundering (AML) (In Progress)',
-            techStack: 'Python, Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn, Jupyter Notebook, Tableau Dashboards, Node.js, React.js, GraphQL',
-            models: 'Random Forest, Logistic Regression, XGBoost, Decision Trees',
-            websiteUrl: [{ Name: 'Github-Link', URL: 'https://github.com/DevanshiShah9/AML-Project-In-Progress/' }],
-            description: 'I undertook this project to dive deeper into the Financial sector and implement ML models for Fraud Detection and Account Risk Assessment.',
+            heading: 'MERN + ML Financial Revenue Dashboard',
+            techStack: 'MERN - MongoDB, Express.js, React.js, Node.js, Javascript, Typescript',
+            models: 'Linear Regression',
+            websiteUrl: [{ Name: 'Github-Link', URL: 'https://github.com/DevanshiShah9/Finance-App-Dashboard' }],
+            description: 'I undertook this project to dive deeper into the Financial sector and implement a useful and impactful project using MERN stack.',
             features: [
-                'Leveraged supervised ML models building classifier chain to detect patterns associated with fraudulent transactions, with a particular focus on identifying SAR cycles',
-                'Employ unsupervised ML to predict the likelihood of an account being fraudulent based on these detected transactions',
-                'Create a dashboard using Tableau to visualize the data and its insights',
-                'Create an interactive GUI to interact with the data, dashboards and models'
+                'Leveraged MERN stack to develop a dashboard to visualize and track impactful KPIs (Key Performance Indicators) such as Repeat Rate and ATV (Average Transaction Value)',
+                'Employ supervised ML to predict the monthly revenue for next year based on the revenue trajectory for this year',
             ],
             categories: [
                 { name: 'Data Science', color: '#096B72' },
                 { name: 'Machine Learning', color: '#785589' },
+                { name: 'Software Development', color: '#60AFFF' },
             ]
-        },
+        }
+      //   {
+      //     heading: 'Anti Money Laundering (AML) (In Progress)',
+      //     techStack: 'Python, Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn, Jupyter Notebook, Tableau Dashboards, Node.js, React.js, GraphQL',
+      //     models: 'Random Forest, Logistic Regression, XGBoost, Decision Trees',
+      //     websiteUrl: [{ Name: 'Github-Link', URL: 'https://github.com/DevanshiShah9/AML-Project-In-Progress/' }],
+      //     description: 'I undertook this project to dive deeper into the Financial sector and implement ML models for Fraud Detection and Account Risk Assessment.',
+      //     features: [
+      //         'Leveraged supervised ML models building classifier chain to detect patterns associated with fraudulent transactions, with a particular focus on identifying SAR cycles',
+      //         'Employ unsupervised ML to predict the likelihood of an account being fraudulent based on these detected transactions',
+      //         'Create a dashboard using Tableau to visualize the data and its insights',
+      //         'Create an interactive GUI to interact with the data, dashboards and models'
+      //     ],
+      //     categories: [
+      //         { name: 'Data Science', color: '#096B72' },
+      //         { name: 'Machine Learning', color: '#785589' },
+      //     ]
+      // },
     ];
 
     const data = popupData[index];
