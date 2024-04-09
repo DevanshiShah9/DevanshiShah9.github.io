@@ -48,6 +48,8 @@ const toolsData = [
     { name: 'BigQuery', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
     { name: 'Microsoft 365', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
     { name: 'Google Cloud Platform (GCP)', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'Microsoft Azure', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'Databricks', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
     { name: 'Tableau', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
     { name: 'Amazon Web Services (AWS)', category: 'Development Tools & Platforms', percentage: 90, color: '#60993E' },  
     { name: 'Jira', category: 'Development Tools & Platforms', percentage: 85, color: '#60993E' },
