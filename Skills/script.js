@@ -1,14 +1,14 @@
 function initializeScript() {
 
 const skillsData = [
+    { name: 'Software Development', percentage: 95, color: '#60993E' }, 
+    { name: 'Data Engineering', percentage: 95, color: '#60993E' },
+    { name: 'Product Management', percentage: 95, color: '#60993E' }, 
     { name: 'Data Science', percentage: 95, color: '#60993E' },
     { name: 'Machine Learning', percentage: 95, color: '#60993E' },
-    { name: 'Software Development', percentage: 95, color: '#60993E' },
     { name: 'Data Analytics', percentage: 95, color: '#60993E' },
-    { name: 'Data Engineering', percentage: 90, color: '#60993E' },
-    { name: 'Product Management', percentage: 90, color: '#60993E' },
-    { name: 'Computer Vision', percentage: 85, color: '#60993E' },
-    { name: 'Natural Language Processing', percentage: 85, color: '#60993E' }
+    { name: 'Computer Vision', percentage: 90, color: '#60993E' },
+    { name: 'Natural Language Processing', percentage: 90, color: '#60993E' }
 ];
 
 
@@ -36,23 +36,26 @@ const toolsData = [
 
     { name: 'pgAdmin', category: 'Database Tools', percentage: 95, color: '#60993E' },
     { name: 'PostgreSQL', category: 'Database Tools', percentage: 95, color: '#60993E' },
+    { name: 'BigQuery', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
     { name: 'GraphQL', category: 'Database Tools', percentage: 90, color: '#60993E' },
     { name: 'MySQL', category: 'Database Tools', percentage: 90, color: '#60993E' },
-    
+    { name: 'MongoDB (NoSQL)', category: 'Database Tools', percentage: 90, color: '#60993E' },
+ 
     { name: 'Jupyter Notebooks', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
     { name: 'GitHub', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
     { name: 'Django/ Django REST', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
     { name: 'Node.js', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
     { name: 'React', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
-    { name: 'Looker Studio', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
-    { name: 'BigQuery', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
-    { name: 'Microsoft 365', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
-    { name: 'Google Cloud Platform (GCP)', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
-    { name: 'Microsoft Azure', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
-    { name: 'Databricks', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
     { name: 'Tableau', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
-    { name: 'Amazon Web Services (AWS)', category: 'Development Tools & Platforms', percentage: 90, color: '#60993E' },  
-    { name: 'Jira', category: 'Development Tools & Platforms', percentage: 85, color: '#60993E' },
+    { name: 'Looker Studio', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+
+    { name: 'Microsoft 365', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    
+    { name: 'Google Cloud Platform (GCP)', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' },
+    { name: 'Amazon Web Services (AWS)', category: 'Development Tools & Platforms', percentage: 95, color: '#60993E' }, 
+    { name: 'Microsoft Azure', category: 'Development Tools & Platforms', percentage: 90, color: '#60993E' },
+    { name: 'Databricks', category: 'Development Tools & Platforms', percentage: 90, color: '#60993E' },  
+    { name: 'Jira/Confluence/Miro', category: 'Development Tools & Platforms', percentage: 90, color: '#60993E' },
     { name: 'Unity', category: 'Development Tools & Platforms', percentage: 85, color: '#60993E' }, 
 ];
 

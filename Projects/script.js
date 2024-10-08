@@ -130,7 +130,21 @@ function openPopup(index) {
                 { name: 'Machine Learning', color: '#785589' },
                 { name: 'Software Development', color: '#60AFFF' },
             ]
-        }
+        },
+        {
+          heading: 'Tokyo Olympics Data Engineering Pipeline – Azure + Databricks',
+          techStack: 'Azure Data Factory, Azure Data Lake, Azure Databricks, Azure Synapse Analyticst',
+          websiteUrl: [{ Name: 'Github-Link', URL: 'https://github.com/DevanshiShah9/Tokyo-Olympics-Data-Engineering-Pipeline-Azure-Databricks' }],
+          description: 'I undertook this project to streamline and understand end-to-end ETL pipeline for 2021 Tokyo Olympics data with Azure\'s cloud ecosystem for seamless data processing and analytics.',
+          features: [
+              'Streamlined end-to-end ETL pipeline for 2021 Tokyo Olympics Data utilizing Azure Data Factory, Data Lake and Databricks',
+              'Automated data ingestion and data engineering workflow to perform exploratory data analysis in Azure Synapse Analytics'
+            ],
+          categories: [
+              { name: 'Data Engineering', color: '#60993E' },
+              { name: 'Cloud Development', color: '#60AFFF' },
+          ]
+      }
       //   {
       //     heading: 'Anti Money Laundering (AML) (In Progress)',
       //     techStack: 'Python, Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn, Jupyter Notebook, Tableau Dashboards, Node.js, React.js, GraphQL',
